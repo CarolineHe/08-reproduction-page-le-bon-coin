@@ -1,0 +1,57 @@
+@media screen and (min-width: 300px) and (max-width: 767px) {
+    body {
+      text-align:center;
+      font-size: 1em;
+      text-decoration: underline;
+      color:orange;
+      background-color:#424242;
+      }
+
+#France {
+    max-width: 100%;
+}
+
+    section {
+        margin:auto;
+        margin-top: 30px;
+    /*background-image: url(media/map.png)
+      background-size:cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;*/
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+body {
+  text-align:center;
+  font-size: 2em;
+  text-decoration: underline;
+  color:orange;
+  background-color:#424242;
+  margin-left: 0;
+  }
+
+  #France {
+      max-width: 100%;
+  }
+
+section {
+  margin-top: 50px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1500px) {
+    body {
+      text-align:center;
+      font-size: 2em;
+      text-decoration: underline;
+      color:orange;
+      background-color:#424242;
+      }
+
+    section {
+      text-align: center;
+      margin-top: 50px;
+    }
+}
