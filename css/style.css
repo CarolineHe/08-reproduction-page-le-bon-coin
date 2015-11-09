@@ -1,4 +1,6 @@
-@media screen and (min-width: 300px) and (max-width: 767px) {
+
+/*/////////////////////////////screen between 200px-767px////////////////////////*/
+@media screen and (min-width: 200px) and (max-width: 767px) {
     body {
       text-align:center;
       font-size: 1em;
@@ -7,40 +9,39 @@
       background-color:#424242;
       }
 
-#France {
+    #France {
     max-width: 100%;
 }
 
-    section {
+    div {
         margin:auto;
         margin-top: 30px;
-    /*background-image: url(media/map.png)
-      background-size:cover;
-      background-repeat: no-repeat;
-      background-position: center;
-      background-attachment: fixed;*/
     }
 }
 
+
+/*/////////////////////////////screen between 768px-1023px////////////////////////*/
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-body {
-  text-align:center;
-  font-size: 2em;
-  text-decoration: underline;
-  color:orange;
-  background-color:#424242;
-  margin-left: 0;
-  }
+    body {
+      text-align:center;
+      font-size: 2em;
+      text-decoration: underline;
+      color:orange;
+      background-color:#424242;
+      margin-left: 0;
+      }
 
   #France {
       max-width: 100%;
   }
 
-section {
+div {
   margin-top: 50px;
     }
 }
 
+
+/*/////////////////////////////screen between 1024px-1500px////////////////////////*/
 @media screen and (min-width: 1024px) and (max-width: 1500px) {
     body {
       text-align:center;
@@ -50,7 +51,7 @@ section {
       background-color:#424242;
       }
 
-    section {
+    div {
       text-align: center;
       margin-top: 50px;
     }
